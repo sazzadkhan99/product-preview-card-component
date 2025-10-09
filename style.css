@@ -63,7 +63,7 @@ img.mobile-image{
   margin-bottom: 15px;
   font-weight: 400;
 }
-.text_area h2{
+.text_area h1{
   font-size: 25px;
   font-family: var(--secondaryFont);
   color: var(--Green700);
