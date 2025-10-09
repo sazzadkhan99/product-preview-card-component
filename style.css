@@ -33,9 +33,9 @@ img{
 }
 
 .content{
-  width:470px;
+  width:600px;
   display: flex;
-  margin:130px auto;
+  margin:200px auto;
 }
 .image_area{
   flex-basis: 50%;
@@ -54,51 +54,51 @@ img.mobile-image{
   flex-basis: 50%;
   background-color: var(--White); 
   border-radius: 0 10px 10px 0;
-  padding:25px;
+  padding:30px;
 } 
 .text_area h4{
   font-weight: normal;
-  letter-spacing: 3.5px;
-  font-size: 10px;
-  margin-bottom: 15px;
-  font-weight: 400;
+  letter-spacing: 4px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 500;
 }
 .text_area h1{
-  font-size: 25px;
+  font-size: 32px;
   font-family: var(--secondaryFont);
   color: var(--Green700);
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .text_area p{
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.5em;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .text_area p.price{
   font-family: var(--secondaryFont);
-  font-size: 25px;
+  font-size: 32px;
   font-weight: 700;
   color: var(--Green500);
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .text_area p.price span{
   font-family: var(--primaryFont);
   color: var(--Grey);
-  font-size: 11px;
+  font-size: 14px;
   font-weight: normal;
   text-decoration: line-through;  
   position: absolute;
-  margin-left: 15px;
+  margin-left: 40px;
 }
 
 button{
   background-color: var(--Green500);
-  border: 1px solid var(--Green500);
+  border: none;
   border-radius: 6px;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--White);
   width:100%;
-  padding:10px 5px;  
+  padding:14px 10px;  
   cursor: pointer;  
   transition: .7s;
 }
@@ -107,8 +107,8 @@ button:hover{
 }
 button img{
   margin-bottom: -3px;
-  margin-right: 5px;
-  width:12px;
+  margin-right: 7px;
+  width:14px;
 }
 @media screen and (max-width:600px){
   .content{
@@ -132,5 +132,21 @@ img.desktop-image{
 img.mobile-image{
   display: block;
   border-radius: 10px 10px 0 0;
+}
+
+.text_area h4{
+  margin-bottom: 10px;
+}
+.text_area h1{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.text_area p{
+  line-height: 1.4em;
+  margin-bottom: 10px;
+}
+.text_area p.price{
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 }
