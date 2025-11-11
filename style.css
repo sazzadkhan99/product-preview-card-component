@@ -17,11 +17,14 @@
   list-style: none;
 }
 html,body{
-  height:100%;
+  min-height:100vh;
 }
 body{
   background-color: var(--Cream);
   font-family: var(--primaryFont);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
   color: var(--Grey);
   font-size: 14px;
   font-weight: 400; 
@@ -35,7 +38,8 @@ img{
 .content{
   width:600px;
   display: flex;
-  margin:200px auto;
+  justify-content: center;
+  align-items: center;
 }
 .image_area{
   flex-basis: 50%;
